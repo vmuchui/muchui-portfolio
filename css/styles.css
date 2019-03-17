@@ -9,9 +9,16 @@ body{
 }
 h1{
   background-color: lightblue;
-
+  border: 4px dotted red;
 }
 .logo{
   width: 32px;
   height: 32px;
+}
+img{
+  float:none;
+}
+.box{
+  border: 2px solid red;
+  background-color: lightblue;
 }
