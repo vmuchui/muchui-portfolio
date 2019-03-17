@@ -1,5 +1,6 @@
 body{
   text-align: center;
+<<<<<<< HEAD
   background: #00ff00;
 }
 h1{
@@ -13,4 +14,16 @@ h1{
 }
 .navigate{
   font-size: 24px;
+=======
+  background-color: green;
+
+}
+.navigate{
+  font-size: 24px;
+  font-weight: bold;
+}
+h1{
+  background-color: lightblue;
+  
+>>>>>>> thaswassup
 }
