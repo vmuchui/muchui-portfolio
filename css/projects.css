@@ -1,0 +1,13 @@
+body{
+  text-align: center;
+  background-color: blue;
+}
+h1{
+  color: red;
+  font-style: italic;
+  font-size: 40px;
+}
+.size{
+  font-size: 32px;
+  color: #0000ff;
+}
