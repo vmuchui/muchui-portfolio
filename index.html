@@ -2,20 +2,134 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="image/v.ico">
-    <title>I am Muchui.Victor</title>
+    <title> Muchui.Victor Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Montserrat:ital,wght@0,200;1,100&family=Open+Sans:ital,wght@0,300;1,300;1,400;1,600&family=Tapestry&family=Updock&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  
   </head>
   <body>
-    <nav>
-      <a href="#"></a>
-      <a href="#"></a>
-      <a href="#"></a>
-    </nav>
-    <h1>Hello welcome to my first ever portfolio!</h1>
-    <img src="image/muchui.jpg" alt="photo of me back in the day...">
-    <p>My name is Muchui Victor. I am 18 years old.ell i'm pretty much very new to coding but i
-      really like it. As I said this is my first portfolio ever hope you dont judge
-      however any feedback is totally welcome.
-    </p>
+    <header>
+      <div class="logo">
+        <img src="images/" alt="">
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="burger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link"> My Work</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
+
+        </ul>
+      </nav>
+    </header>
+    <!--introductory section-->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">Hello, I am <strong>Victor Muchui</strong></h1>
+      <p class="section__subtitle section__subtitle--intro">A fullstack developer</p>
+      <img src="images/DSC_3802.JPG" alt="a photo of me" class="intro__img">
+    </section>
+    <!-- my services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I Do</h2>
+
+      <div class="services">
+        <div class="service">
+          <h3> Design and Development </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sapiente perspiciatis odit repudiandae quam 
+            explicabo quae deleniti nesciunt libero esse sit, ipsam inventore tempore quos ex, dolores delectus doloribus consectetur!</p>
+        </div>
+        <div class="service">
+          <h3> Mobile Applications </h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod officiis voluptatem sunt optio doloribus,
+             asperiores maxime dolorum quaerat maiores, cum fuga quae doloremque nemo quibusdam obcaecati debitis, 
+             voluptate excepturi consectetur?</p>
+        </div>
+        <div class="service">
+          <h3> Wordpress </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate vel sapiente, quo nobis ratione maxime commodi, 
+            natus, odio itaque laborum at cumque beatae. Consequatur, numquam laboriosam in recusandae sit doloremque.</p>
+        </div>
+        
+        
+      </div>
+      
+      <a href="#projects" class="btn">My Projects</a>
+
+    </section>
+    <!-- About me section-->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about"> Who Am I? </h2>
+      <p class="section__subtitle section__subtitle--about">I am a fullstack developer from Nairobi. </p>
+
+      <div class="about-me__body">
+        <p>My name is Muchui Victor.</p>
+        <p>My name is Muchui Victor.</p>
+        <p>My name is Muchui Victor.</p>
+      </div>
+      
+      <img src="images/DSC_3802.JPG" alt="image of me again" class="about-me__img">
+    </section>
+    <!--My Projects-->
+    <section class="my-projects" id="projects">
+      <h2 class="section__title section__title--my-projects"> My Projects</h2>
+      <p class="section__subtitle section__subtitle--my-projects"> A preview of the works I've done.</p>
+
+      <div class="portfolio">
+
+        <a href="" class="portfolio__item">
+          <img src="images/" alt="" class="portfolio__img">
+        </a>
+        <a href="" class="portfolio__item">
+          <img src="images/" alt="" class="portfolio__img">
+        </a>
+        <a href="" class="portfolio__item">
+          <img src="images/" alt="" class="portfolio__img">
+        </a>
+        <a href="" class="portfolio__item">
+          <img src="images/" alt="" class="portfolio__img">
+        </a>
+        <a href="" class="portfolio__item">
+          <img src="images/" alt="" class="portfolio__img">
+        </a>
+        <a href="" class="portfolio__item">
+          <img src="images/" alt="" class="portfolio__img">
+        </a>
+        <a href="" class="portfolio__item">
+          <img src="images/" alt="" class="portfolio__img">
+        </a>
+        <a href="" class="portfolio__item">
+          <img src="images/" alt="" class="portfolio__img">
+        </a>
+        <a href="" class="portfolio__item">
+          <img src="images/" alt="" class="portfolio__img">
+        </a>
+        <a href="" class="portfolio__item">
+          <img src="images/" alt="" class="portfolio__img">
+        </a>
+      </div>
+
+    </section>
+    <!--footer-->
+
+    <footer id="contact">
+      <a href="mailto:kaigongimuchui@gmail.com" class="footer__link"> say hello </a>
+
+      <ul class="social-list">
+        <li class="social-list__item"><a href="https://github.com/vmuchui" target="_blank" class="social-list__link">a</a></li>
+        <li class="social-list__item"><a href="https://twitter.com/MuchuiVictor" target="_blank" class="social-list__link">b</a></li>
+        <li class="social-list__item"><a href="https://github.com/vmuchui" target="_blank" class="social-list__link">c</a></li>
+        <li class="social-list__item"><a href="https://github.com/vmuchui" target="_blank" class="social-list__link">d</a></li>
+        <li class="social-list__item"><a href="https://github.com/vmuchui" target="_blank" class="social-list__link">e</a></li>
+      </ul>
+    </footer>
+    
   </body>
 </html>
