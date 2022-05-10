@@ -13,10 +13,12 @@ html {
     --ff-custom: 'BenchNine', sans-serif;
     --ff-additional: 'Open Sans', sans-serif;
 
+    --bg-gradient: linear gradient(to left,  #ECE9E6, #FFFFFF);
+
 
     --fw-regular: 300;
     --fw-bold: 900;
-    --clr-accent: #16E0BD;
+    --clr-accent: hsl(152, 48%, 84%);
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -53,10 +55,10 @@ body::-webkit-scrollbar-track {
 }
   
 body::-webkit-scrollbar-thumb {
-    background: hsl(263, 3%, 47%);
+    background: linear-gradient(to left,  #222222, #FFFFFF);
 }  
 body {
-    background: var(--bg-primary);
+    background: var(--bg-gradient);
     color: var(--bg-secondary);
     margin: 0;
     font-family: var(--ff-primary);
@@ -74,7 +76,7 @@ header {
     padding: 1em;
 }
 .logo {
-    max-width: 100px;
+    max-width: 170px;
     height: 50px;
     border-radius: 50px;
     padding: .7em;
@@ -267,6 +269,8 @@ h3 {
         "img title"
         "img subtitle";
         grid-template-columns: min-content max-content;
+
+        margin-bottom: 2rem;
     }
     .intro__img {
         grid-area: img;
@@ -321,6 +325,7 @@ h3 {
     .services {
         display: flex;
         max-width: 1000px;
+        padding: 2rem 2rem 2rem 2rem;
         margin-left: auto;
         margin-right: auto;
     }
@@ -346,6 +351,7 @@ h3 {
         "subtitle img"
         "text img";
         grid-column-gap: 2em;
+        padding-top: 3rem;
     }
     .section__title--about {
         grid-area: title;
@@ -369,9 +375,15 @@ h3 {
 
 /* my projects */
 .my-projects {
-    background-color: var(--bg-secondary);
+background: #2C3E50;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C3E50, #4CA1AF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C3E50, #4CA1AF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: var(--bg-primary);
     text-align: center;
+    padding-top: 4rem;
 }
 .section__subtitle--my-projects {
     color: var(--clr-accent);
